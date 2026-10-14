@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Captura</title>
+    <link>https://github.com/arenter1/captura-updates</link>
+    <description>Actualizaciones firmadas de Captura para macOS.</description>
+    <language>es</language>
+    <item>
+      <title>Captura 0.12.0</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.12.0</link>
+      <pubDate>Wed, 14 Oct 2026 22:47:21 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="plain-text">Captura 0.12.0
+
+Ahora puedes buscar e instalar nuevas versiones desde Captura.
+
+• Buscar actualizaciones en Ajustes, en el menú de Captura y en Más.
+• Comprobación automática diaria, con opción para desactivarla.
+• Tú decides cuándo instalar; no se instalan versiones en silencio.
+• La app verifica las firmas del archivo de versiones y del paquete antes de extraerlo.
+
+Se conservan las herramientas de edición, OCR, blur, fondos, capturas con scroll y los temas claro y oscuro.
+
+Mac con chip Apple y macOS 14 o posterior. La app utiliza firma local, sin notarización de Apple; macOS puede pedir renovar el permiso de Grabación de pantalla después de una actualización.
+</description>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.12.0/Captura-0.12.0.zip" length="3352445" type="application/octet-stream" sparkle:edSignature="yPpxi4I11TfYucpILjuHmE/FkWTl3jgIsCiWAggnM1zkjA//32qKq+fiFmT8AXDYhQnI9Di85911ODf7aQ4hCQ=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: fTY8DtGoJNaNjUEpoi+5+Nl6iAsuQMTNGlPOUBcQzM2658RM6WSBpEE7xUlTYXQ1h8WDympjpBD+C83xW5HGDw==
+length: 2103
+-->
