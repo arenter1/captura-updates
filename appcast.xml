@@ -7,29 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.12.5</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.12.5</link>
-      <pubDate>Thu, 15 Oct 2026 18:06:07 +0000</pubDate>
-      <sparkle:version>22</sparkle:version>
-      <sparkle:shortVersionString>0.12.5</sparkle:shortVersionString>
+      <title>Captura 0.12.6</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.12.6</link>
+      <pubDate>Thu, 15 Oct 2026 20:29:08 +0000</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.12.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text">Captura 0.12.5
+      <description sparkle:format="plain-text">Captura 0.12.6
 
-• Captura con scroll más precisa: toma tramos automáticamente durante el desplazamiento y espera una imagen estable al terminar.
-• Mejora la unión de texto pequeño, tablas repetidas, espacios blancos y cabeceras o pies fijos, conservando la resolución y el perfil de color originales.
-• Reconoce tramos ya capturados al retroceder y evita añadir uniones ambiguas.
-• Apertura elástica del panel y reflejos metálicos sutiles en Capturar y Copiar, con animaciones breves que respetan Reducir movimiento.
-• Se conservan los temas claro y oscuro, OCR habitual, copia automática y cierre del editor al copiar.
+• OCR detecta tablas automáticamente en macOS 26 o posterior y abre una cuadrícula para revisar y corregir sus celdas.
+• Copia tablas para pegarlas en Excel o Google Sheets conservando filas, columnas y celdas vacías. Revisa el resultado antes de copiar; la detección puede equivocarse en tablas complejas o sin bordes.
+• La selección se abre en el escritorio actual y se cancela si cambias de escritorio, evitando que aparezca una imagen congelada en otro espacio.
+• Escape cancela la selección antes y después de ajustar el área, incluso si otro control conserva el foco.
 
-Para mejores resultados, desplázate suavemente y conserva contenido en común entre tramos. El OCR de capturas largas no forma parte de esta mejora.
+El reconocimiento se procesa localmente. macOS 14 y 15 conservan OCR de texto; las tablas requieren macOS 26. No se incluye OCR de capturas largas.
 
-Mac con chip Apple y macOS 14 o posterior. Firma local, sin notarización de Apple: macOS puede pedir renovar el permiso de pantalla al actualizar.
+Mac con chip Apple y macOS 14 o posterior. Firma local, sin notarización de Apple: macOS puede pedir renovar el mismo permiso de pantalla al actualizar.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.12.5/Captura-0.12.5.zip" length="3426094" type="application/octet-stream" sparkle:edSignature="xLbrNcsK+yddjMgDc2YXZ7c+TlMlJN6AbJyUw553NGh60bCvpxfgLU6ybUmv/w+2Pru4DairZf7mqrj53EkHCA=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.12.6/Captura-0.12.6.zip" length="3473693" type="application/octet-stream" sparkle:edSignature="fsILO1hy5E5MaFnki1Axrl+JoLoxCQ4B+POX/VoyUAwjfvsQlb9wd3LW1B0tYLCGkuVXX+rhef9G4VQ3GWvIAQ=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: puy2Hrrtp3nOvtGRzlk2Woif24jbogRswejIoJ9Qyo9D+abHMK9NJQqWRsNq4sgvPQD4c3qFAfEokYcCmxUGBw==
-length: 2352
+edSignature: 6qXTMqPwZHyKG7lvdi5Am1TAEXDXWoyV4V1pCTOJqUmmgRtER655SNK/vAh8P5KdWdLVpb2FXeFqfWeOiWN5Dw==
+length: 2323
 -->
