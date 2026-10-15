@@ -7,28 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.12.6</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.12.6</link>
-      <pubDate>Thu, 15 Oct 2026 20:29:08 +0000</pubDate>
-      <sparkle:version>24</sparkle:version>
-      <sparkle:shortVersionString>0.12.6</sparkle:shortVersionString>
+      <title>Captura 0.13.0</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.0</link>
+      <pubDate>Thu, 15 Oct 2026 22:57:31 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text">Captura 0.12.6
+      <description sparkle:format="plain-text">Captura 0.13.0
 
-• OCR detecta tablas automáticamente en macOS 26 o posterior y abre una cuadrícula para revisar y corregir sus celdas.
-• Copia tablas para pegarlas en Excel o Google Sheets conservando filas, columnas y celdas vacías. Revisa el resultado antes de copiar; la detección puede equivocarse en tablas complejas o sin bordes.
-• La selección se abre en el escritorio actual y se cancela si cambias de escritorio, evitando que aparezca una imagen congelada en otro espacio.
-• Escape cancela la selección antes y después de ajustar el área, incluso si otro control conserva el foco.
+• Graba una ventana, un área o la pantalla en MP4 a 30 fps. Inicia y detén con ⇧⌘R, o configura tu propio atajo en Ajustes.
+• Audio del Mac y micrófono opcionales, desactivados por defecto. El micrófono requiere macOS 15 o posterior y su autorización al activarlo.
+• Cuenta regresiva centrada con números de vidrio, reflejos aqua/lavanda y transición suave. Liquid Glass nativo en macOS 26; contorno transparente en versiones anteriores. Respeta Reducir movimiento y Reducir transparencia.
+• Marco aqua que mantiene visible el área elegida y sombreado fuera de ella. Controles flotantes con duración y botón rojo Detener, excluidos del video.
+• Grabaciones guardadas en Descargas. Procesamiento local, sin subir pantalla ni audio.
+• Menú compacto con Capturar, OCR y Grabar, atajos con más espacio y versión pequeña junto a CAPTURA.
 
-El reconocimiento se procesa localmente. macOS 14 y 15 conservan OCR de texto; las tablas requieren macOS 26. No se incluye OCR de capturas largas.
+El motor trabaja sólo mientras grabas y mantiene acotada su cola de cuadros. Se corrigió el congelamiento observado en las pruebas de video.
 
 Mac con chip Apple y macOS 14 o posterior. Firma local, sin notarización de Apple: macOS puede pedir renovar el mismo permiso de pantalla al actualizar.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.12.6/Captura-0.12.6.zip" length="3473693" type="application/octet-stream" sparkle:edSignature="fsILO1hy5E5MaFnki1Axrl+JoLoxCQ4B+POX/VoyUAwjfvsQlb9wd3LW1B0tYLCGkuVXX+rhef9G4VQ3GWvIAQ=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.0/Captura-0.13.0.zip" length="3620355" type="application/octet-stream" sparkle:edSignature="0lMNXV6QPoknBcqd/a17TnKDS/FVmJ2wXasG7fjzBSt6s+pedw1Q4Y5FMyqaqVb1yM9vyDwjXzbyxNQ2jLkIDg=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 6qXTMqPwZHyKG7lvdi5Am1TAEXDXWoyV4V1pCTOJqUmmgRtER655SNK/vAh8P5KdWdLVpb2FXeFqfWeOiWN5Dw==
-length: 2323
+edSignature: nm24s3DFq4RTclOu1AxKDvkKZ3sWY8VvT1QMNFlp91WT0gKyXqd1j55qGdSdowmp9razvtCpHb6v4Dlkq+TvBQ==
+length: 2591
 -->
