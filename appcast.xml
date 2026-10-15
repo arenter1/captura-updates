@@ -7,28 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.12.2</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.12.2</link>
-      <pubDate>Thu, 15 Oct 2026 00:54:39 +0000</pubDate>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>0.12.2</sparkle:shortVersionString>
+      <title>Captura 0.12.3</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.12.3</link>
+      <pubDate>Thu, 15 Oct 2026 15:52:29 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.12.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text">Captura 0.12.2
+      <description sparkle:format="plain-text">Captura 0.12.3
 
-• Ajustes más compactos: menos espacio vacío y controles agrupados.
-• Buscar ahora inicia una búsqueda manual, aunque la comprobación automática esté desactivada. Si ya hay una comprobación, conserva un único pedido y muestra el estado.
-• Etiqueta de versión más pequeña y discreta en el menú.
-• Botones nativos Liquid Glass en macOS 26, con apariencia compatible en macOS anteriores. Los toggles siguen siendo controles del sistema.
+• Capturar y Texto OCR usan botones Liquid Glass nativos en macOS 26, con acentos aqua y lavanda.
+• La vista previa incorpora acciones nativas para OCR, Guardar y Copiar. La barra de edición conserva una sola superficie de vidrio y elimina los fondos que tapaban el material.
+• Los controles secundarios mantienen iconos legibles y los colores de anotación conservan su color exacto.
+• Toggles personalizados en el menú y Ajustes: lente transparente sobre un carril más fino, reflejo sutil de macOS 26 y borde luminoso visible en reposo. Incorporan estiramiento al presionar y un resorte breve al soltar; conservan estado accesible y uso con teclado.
+• El indicador de foco de los toggles aparece al navegar con Tab o Shift-Tab y se oculta al hacer clic con el mouse, incluso si el control ya estaba enfocado.
+• Fondo y acabado: diez gradientes en miniatura, esquinas redondeadas y sombra con dirección, distancia, suavidad e intensidad ajustables. La vista previa y la exportación usan el mismo acabado y conservan la resolución original.
+• Se conservan los temas claro y oscuro y la apariencia compatible con macOS anteriores.
 
-Se conservan los temas claro y oscuro, los atajos y las funciones de captura y edición.
+Liquid Glass nativo requiere macOS 26. Su transparencia y animaciones respetan las preferencias de accesibilidad del sistema.
 
 Mac con chip Apple y macOS 14 o posterior. Firma local, sin notarización de Apple: macOS puede pedir renovar el permiso de pantalla al actualizar.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.12.2/Captura-0.12.2.zip" length="3355448" type="application/octet-stream" sparkle:edSignature="KXgpr/DYt05r6zhJNnw6v/lBHMjpNUfClPDdkggdO1xz+xf+6HeRfEvatEGUPRrvJgQImSBy4I3Ag5Cx0ni3AA=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.12.3/Captura-0.12.3.zip" length="3383211" type="application/octet-stream" sparkle:edSignature="tSvfgGI0kBIRtoPjCGs3GJXNIOspmVK78oxplkdVepsBcLyQ5WLb7tJrDGkTj3Pa/5AF65sMXfdxh60SKelZDA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 3hB4YJD1uLsZFVUB4fUw5bafgOREvZG5R6gFFFKQvMAXol7nJR1VlWdAynhFfVovgkMvbVNR5DmqMN+ocpw8Ag==
-length: 2122
+edSignature: i5wCGZuYOwBd1r3qO0fqxNnvpTxG4mYzTQf6CvtMQIebDgNsSkyUGFQHIFouNXK2r+ropmp4jAolWD3cmbadDw==
+length: 2855
 -->
