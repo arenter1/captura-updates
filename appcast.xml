@@ -7,29 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.13.4</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.4</link>
-      <pubDate>Tue, 20 Oct 2026 17:15:10 +0000</pubDate>
-      <sparkle:version>35</sparkle:version>
-      <sparkle:shortVersionString>0.13.4</sparkle:shortVersionString>
+      <title>Captura 0.13.5</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.5</link>
+      <pubDate>Tue, 20 Oct 2026 20:57:46 +0000</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.13.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text">Captura 0.13.4
+      <description sparkle:format="plain-text">Captura 0.13.5
 
-• 24 gradientes y 12 colores sólidos en miniaturas para preparar capturas listas para compartir, conservando los diez gradientes anteriores.
-• Nueva barra lateral de Fondo y Acabado: cambia el fondo, las esquinas y la sombra sin tapar la imagen. Comparte su espacio con OCR para mantener cómodo el editor.
-• Apertura y cierre con una animación breve; la imagen se adapta al espacio disponible. Se respeta Reducir movimiento.
-• Nueva herramienta Mano alzada, separada del pincel de blur: dibuja con el color y grosor elegidos, ve el trazo mientras dibujas y después puedes moverlo, cambiar su estilo, borrarlo o deshacerlo.
-• Miniaturas preparadas una vez, controles reutilizados y trazo vectorial durante el gesto. Sin nuevas dependencias ni animaciones continuas en reposo.
+• «Ver» ahora se llama «Seleccionar y mover». Usa el cursor para seleccionar y arrastrar cuadros, flechas, texto, rellenos, desenfoques y trazos de ambos pinceles.
+• Seleccionar trazos finos es más fácil: tienen un margen cómodo al hacer clic, incluso al cambiar el zoom.
+• La selección se conserva al cambiar al cursor. También puedes mover una anotación desde el interior de su cuadro delimitador, sin acertar exactamente sobre el trazo.
+• Las flechas se seleccionan por el trazo o su punta. Al mover, las anotaciones conservan su forma, tamaño y estilo, y quedan dentro de la imagen.
+• Deshacer (⌘Z) revierte un movimiento completo de una sola vez. La imagen copiada o guardada no incluye los controles de selección.
 
-Se conservan la lente transparente, los temas claro y oscuro, Alto contraste, OCR y tablas, grabación, captura con scroll y copia directa. Los fondos se exportan manteniendo los píxeles originales de la captura.
+Sin nuevas dependencias, temporizadores ni animaciones continuas. Se conservan los fondos, la barra lateral, la lente transparente, claro y oscuro, Alto contraste, OCR y tablas, grabación, captura con scroll y copia directa.
 
 Mac con chip Apple y macOS 14 o posterior. Capturas y OCR se procesan localmente. Firma local, sin notarización de Apple: macOS puede pedir renovar el mismo permiso de pantalla al actualizar.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.4/Captura-0.13.4.zip" length="3693473" type="application/octet-stream" sparkle:edSignature="lA3heuIXyih2b6TDd8MlWy827SYTozWpg5ZBoH0N9h7n/sZSt7Gpr2ZVtydI7AuWu5HEYqHT21yxu75k16meAA=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.5/Captura-0.13.5.zip" length="3693990" type="application/octet-stream" sparkle:edSignature="3AOliWNj4pyY9HBeSnxmjUmQKL3qWFxIyOuQqz9vZgbRdWb13aTwe3W69vfg2OrsZvVOnYEXI66xeNPny/RpAw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 4rBVEpVel/MxdRBY0ymXadHSDno7gxq0O13cRTu+FApTvKyPRiT6V3A+Zq//98BK2Fjsfvc/aje2Txtf+WWqDA==
-length: 2627
+edSignature: 897InDl+Pqophcj6yC63Xe6m0ExJX6kkMvoIp4+9mimmUJ6eozjH+4mvrtMqIW2WpGgD1j/RSJfkaibwxm/VCg==
+length: 2594
 -->
