@@ -7,30 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.13.3</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.3</link>
-      <pubDate>Tue, 20 Oct 2026 15:12:38 +0000</pubDate>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>0.13.3</sparkle:shortVersionString>
+      <title>Captura 0.13.4</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.4</link>
+      <pubDate>Tue, 20 Oct 2026 17:15:10 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.13.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text">Captura 0.13.3
+      <description sparkle:format="plain-text">Captura 0.13.4
 
-• Nuevo menú compacto con acciones de vidrio en forma de cápsula, iconos más claros y atajos separados. Capturar, OCR y Grabar conservan acceso directo.
-• Selección líquida en las pestañas de Ajustes, los temas y las herramientas del editor: la lente se desplaza con una animación breve y responde al cambiar de dirección.
-• Vista previa con material continuo en toda la ventana y barra flotante adaptable. Los colores y las opciones de texto permanecen junto a las herramientas de edición.
-• Se conserva la lente transparente de los interruptores, los modos claro y oscuro, Alto contraste y las opciones de accesibilidad Reducir movimiento y Reducir transparencia.
-• Nueva opción Abrir al iniciar sesión en Ajustes → App, mediante los ítems de inicio de macOS. Cada Mac puede activarla o desactivarla de forma independiente.
-• Animaciones finitas y materiales nativos, sin nuevas dependencias, motores web ni captura continua del escritorio en reposo.
+• 24 gradientes y 12 colores sólidos en miniaturas para preparar capturas listas para compartir, conservando los diez gradientes anteriores.
+• Nueva barra lateral de Fondo y Acabado: cambia el fondo, las esquinas y la sombra sin tapar la imagen. Comparte su espacio con OCR para mantener cómodo el editor.
+• Apertura y cierre con una animación breve; la imagen se adapta al espacio disponible. Se respeta Reducir movimiento.
+• Nueva herramienta Mano alzada, separada del pincel de blur: dibuja con el color y grosor elegidos, ve el trazo mientras dibujas y después puedes moverlo, cambiar su estilo, borrarlo o deshacerlo.
+• Miniaturas preparadas una vez, controles reutilizados y trazo vectorial durante el gesto. Sin nuevas dependencias ni animaciones continuas en reposo.
 
-Se conservan la grabación con audio opcional, OCR y tablas, scroll, anotaciones, blur, fondos, copia directa con Ctrl+C o ⌘C y apertura del editor con Enter. Copiar cierra la vista previa después de una copia correcta; Escape permite cancelar.
+Se conservan la lente transparente, los temas claro y oscuro, Alto contraste, OCR y tablas, grabación, captura con scroll y copia directa. Los fondos se exportan manteniendo los píxeles originales de la captura.
 
-Mac con chip Apple y macOS 14 o posterior. Vidrio nativo en macOS 26 y alternativa compatible en versiones anteriores. Capturas y OCR se procesan localmente. Firma local, sin notarización de Apple: macOS puede pedir renovar el mismo permiso de pantalla al actualizar.
+Mac con chip Apple y macOS 14 o posterior. Capturas y OCR se procesan localmente. Firma local, sin notarización de Apple: macOS puede pedir renovar el mismo permiso de pantalla al actualizar.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.3/Captura-0.13.3.zip" length="3680105" type="application/octet-stream" sparkle:edSignature="8Ntyone2ZawO/4150iEF+MlgNowjldieFLJZGrsxUHeBN+9ADC4ueXmPXgpZH0kHxo7s28orSQ4UsOdOgBTRBQ=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.4/Captura-0.13.4.zip" length="3693473" type="application/octet-stream" sparkle:edSignature="lA3heuIXyih2b6TDd8MlWy827SYTozWpg5ZBoH0N9h7n/sZSt7Gpr2ZVtydI7AuWu5HEYqHT21yxu75k16meAA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7hIWsZDGFFZS4EObvACK/M5I5wBbz6Ds++R9Cm4STq3imesrUdKK2q1kE8CbNsUbjPkZ/x53nw1AvxKV+aLjCQ==
-length: 2927
+edSignature: 4rBVEpVel/MxdRBY0ymXadHSDno7gxq0O13cRTu+FApTvKyPRiT6V3A+Zq//98BK2Fjsfvc/aje2Txtf+WWqDA==
+length: 2627
 -->
