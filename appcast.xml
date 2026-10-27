@@ -7,29 +7,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.13.5</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.5</link>
-      <pubDate>Tue, 20 Oct 2026 20:57:46 +0000</pubDate>
-      <sparkle:version>36</sparkle:version>
-      <sparkle:shortVersionString>0.13.5</sparkle:shortVersionString>
+      <title>Captura 0.13.6</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.6</link>
+      <pubDate>Tue, 27 Oct 2026 21:06:20 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.13.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text">Captura 0.13.5
+      <description sparkle:format="plain-text"># Captura 0.13.6
 
-• «Ver» ahora se llama «Seleccionar y mover». Usa el cursor para seleccionar y arrastrar cuadros, flechas, texto, rellenos, desenfoques y trazos de ambos pinceles.
-• Seleccionar trazos finos es más fácil: tienen un margen cómodo al hacer clic, incluso al cambiar el zoom.
-• La selección se conserva al cambiar al cursor. También puedes mover una anotación desde el interior de su cuadro delimitador, sin acertar exactamente sobre el trazo.
-• Las flechas se seleccionan por el trazo o su punta. Al mover, las anotaciones conservan su forma, tamaño y estilo, y quedan dentro de la imagen.
-• Deshacer (⌘Z) revierte un movimiento completo de una sola vez. La imagen copiada o guardada no incluye los controles de selección.
+## Editor más ágil
 
-Sin nuevas dependencias, temporizadores ni animaciones continuas. Se conservan los fondos, la barra lateral, la lente transparente, claro y oscuro, Alto contraste, OCR y tablas, grabación, captura con scroll y copia directa.
+- Vista interactiva adaptada a la pantalla, con caché y límite de píxeles. Guardar y copiar conservan la resolución original.
+- El portapapeles descarta capturas pendientes reemplazadas y evita terminar ambos formatos cuando ya no hacen falta.
+- Historial de edición acotado a 80 pasos y un presupuesto de datos de anotaciones.
 
-Mac con chip Apple y macOS 14 o posterior. Capturas y OCR se procesan localmente. Firma local, sin notarización de Apple: macOS puede pedir renovar el mismo permiso de pantalla al actualizar.
+## Anotaciones y acabado
+
+- Deshacer y Rehacer incluyen dibujos, texto, movimientos, fondo, esquinas y sombra.
+- Redimensiona cuadros y flechas con sus tiradores, duplica con ⌘D y mueve con las flechas del teclado (⇧ para pasos de 10 píxeles).
+- Inspector lateral contextual para color, texto, grosor, relleno y blur. La barra flotante queda más despejada.
+- Seis colores neón junto a los seis pastel y el selector personalizado.
+- Tamaño de texto editable entre 8 y 256 píxeles.
+- Guarda hasta 12 estilos de fondo, esquinas y sombra para reutilizarlos.
+
+## Capturas repetidas
+
+- Repetir última área toma una imagen nueva de las mismas coordenadas en el escritorio actual, sin conservar la captura anterior.
+- Atajo configurable en Ajustes → Atajos; inicialmente ⌃⇧⌘A si está disponible.
+- Si cambia el monitor o su resolución, solicita seleccionar de nuevo el área.
+- Si un atajo antiguo ocupa ⌘D o ⇧⌘Z, se muestra su sustitución en Ajustes para reservar esos comandos al editor.
+
+Se mantienen los modos claro, oscuro y alto contraste, la lente transparente, los flujos de OCR y grabación y las animaciones breves. Sin nuevas dependencias ni servicios en segundo plano.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.5/Captura-0.13.5.zip" length="3693990" type="application/octet-stream" sparkle:edSignature="3AOliWNj4pyY9HBeSnxmjUmQKL3qWFxIyOuQqz9vZgbRdWb13aTwe3W69vfg2OrsZvVOnYEXI66xeNPny/RpAw=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.6/Captura-0.13.6.zip" length="3746880" type="application/octet-stream" sparkle:edSignature="PEU55AU3AlN1QQfmsBBw+gmEgTNz1mrsB9ekqbt9poHd0r1ngiWtlcbjUULVxfMrK/0AeYDJijGYfM8EQIcYDg=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 897InDl+Pqophcj6yC63Xe6m0ExJX6kkMvoIp4+9mimmUJ6eozjH+4mvrtMqIW2WpGgD1j/RSJfkaibwxm/VCg==
-length: 2594
+edSignature: 8/yqy16A888+8XRihJFTLVorJwxoM6I9sujlzm8yQ4oKgSj6/G3iDGqDWa5UUxIoNscax+NJEqr6wHN8js0hCQ==
+length: 2988
 -->
