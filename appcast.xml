@@ -7,43 +7,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.13.6</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.6</link>
-      <pubDate>Tue, 27 Oct 2026 21:06:20 +0000</pubDate>
-      <sparkle:version>37</sparkle:version>
-      <sparkle:shortVersionString>0.13.6</sparkle:shortVersionString>
+      <title>Captura 0.13.7</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.7</link>
+      <pubDate>Tue, 03 Nov 2026 01:02:04 +0000</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>0.13.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text"># Captura 0.13.6
+      <description sparkle:format="plain-text"># Captura 0.13.7
 
-## Editor más ágil
+## Selecciona, suelta y pega
 
-- Vista interactiva adaptada a la pantalla, con caché y límite de píxeles. Guardar y copiar conservan la resolución original.
-- El portapapeles descarta capturas pendientes reemplazadas y evita terminar ambos formatos cuando ya no hacen falta.
-- Historial de edición acotado a 80 pasos y un presupuesto de datos de anotaciones.
+- Nueva opción en **Ajustes → Captura → Copiar al soltar el mouse**: al terminar de arrastrar un área, la imagen se copia y el selector se cierra, sin confirmación ni editor.
+- Es opcional y comienza desactivada para conservar el ajuste previo de área. Al activarla, siempre copia el área, independientemente de «Copiar al abrir la vista previa».
+- Nuevo interruptor **Seleccionar ventanas con un clic**, activado por defecto. Desactívalo si prefieres usar sólo áreas en Capturar. La galería explícita de ventanas, OCR y Grabar conservan su funcionamiento.
 
-## Anotaciones y acabado
+## Selector y Ajustes renovados
 
-- Deshacer y Rehacer incluyen dibujos, texto, movimientos, fondo, esquinas y sombra.
-- Redimensiona cuadros y flechas con sus tiradores, duplica con ⌘D y mueve con las flechas del teclado (⇧ para pasos de 10 píxeles).
-- Inspector lateral contextual para color, texto, grosor, relleno y blur. La barra flotante queda más despejada.
-- Seis colores neón junto a los seis pastel y el selector personalizado.
-- Tamaño de texto editable entre 8 y 256 píxeles.
-- Guarda hasta 12 estilos de fondo, esquinas y sombra para reutilizarlos.
+- Marco aqua más fino y tiradores discretos con el mismo margen cómodo de agarre.
+- Dimensiones en una cápsula y barra flotante de vidrio con OCR y Capturar completos. Ambos controles se acomodan al llegar a los bordes de pantalla.
+- La lupa se retira al terminar de seleccionar. La imagen conserva los píxeles originales, sin sombreado ni controles del selector.
+- Ajustes se organiza en **Captura, Apariencia, Atajos y App**, sin necesidad de scroll. Se distinguen la copia directa y la copia al abrir la vista previa.
 
-## Capturas repetidas
+Se conservan Enter para abrir la vista previa desde el ajuste, Ctrl+C/⌘C para copiar directamente, Enter/Ctrl+C/⌘C para copiar y cerrar la vista previa y Escape para cancelar. Los campos de texto conservan sus propios atajos de edición.
 
-- Repetir última área toma una imagen nueva de las mismas coordenadas en el escritorio actual, sin conservar la captura anterior.
-- Atajo configurable en Ajustes → Atajos; inicialmente ⌃⇧⌘A si está disponible.
-- Si cambia el monitor o su resolución, solicita seleccionar de nuevo el área.
-- Si un atajo antiguo ocupa ⌘D o ⇧⌘Z, se muestra su sustitución en Ajustes para reservar esos comandos al editor.
+Se mantienen claro, oscuro y alto contraste, OCR, scroll y grabación. Sin nuevas dependencias ni bucles de animación permanentes.
 
-Se mantienen los modos claro, oscuro y alto contraste, la lente transparente, los flujos de OCR y grabación y las animaciones breves. Sin nuevas dependencias ni servicios en segundo plano.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.6/Captura-0.13.6.zip" length="3746880" type="application/octet-stream" sparkle:edSignature="PEU55AU3AlN1QQfmsBBw+gmEgTNz1mrsB9ekqbt9poHd0r1ngiWtlcbjUULVxfMrK/0AeYDJijGYfM8EQIcYDg=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.7/Captura-0.13.7.zip" length="3754117" type="application/octet-stream" sparkle:edSignature="UfTH1b4CltV97aRNaATTANPoozaV+jtZuG41fhHPMVv8panPJINYllvIOTS8pkaYTYXDkR/cjNZ/ynym0VagDw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8/yqy16A888+8XRihJFTLVorJwxoM6I9sujlzm8yQ4oKgSj6/G3iDGqDWa5UUxIoNscax+NJEqr6wHN8js0hCQ==
-length: 2988
+edSignature: J+IhNmNABnBuqPKOy4joy4i7B667PkAiGVwRM5IPBUpNsH6fh8xprGYmQs4KRT/OcZC/AMzolPZ+4HGERE1hCg==
+length: 2970
 -->
