@@ -7,37 +7,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Actualizaciones firmadas de Captura para macOS.</description>
     <language>es</language>
     <item>
-      <title>Captura 0.13.7</title>
-      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.7</link>
-      <pubDate>Tue, 03 Nov 2026 01:02:04 +0000</pubDate>
-      <sparkle:version>40</sparkle:version>
-      <sparkle:shortVersionString>0.13.7</sparkle:shortVersionString>
+      <title>Captura 0.13.8</title>
+      <link>https://github.com/arenter1/captura-updates/releases/tag/v0.13.8</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:04 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.13.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="plain-text"># Captura 0.13.7
+      <description sparkle:format="plain-text"># Captura 0.13.8
 
-## Selecciona, suelta y pega
+## OCR que se recupera cuando el motor tarda
 
-- Nueva opción en **Ajustes → Captura → Copiar al soltar el mouse**: al terminar de arrastrar un área, la imagen se copia y el selector se cierra, sin confirmación ni editor.
-- Es opcional y comienza desactivada para conservar el ajuste previo de área. Al activarla, siempre copia el área, independientemente de «Copiar al abrir la vista previa».
-- Nuevo interruptor **Seleccionar ventanas con un clic**, activado por defecto. Desactívalo si prefieres usar sólo áreas en Capturar. La galería explícita de ventanas, OCR y Grabar conservan su funcionamiento.
+- Si el reconocimiento de precisión no responde a tiempo, Captura utiliza automáticamente una ruta rápida para devolver el texto.
+- Los reintentos ya no quedan esperando detrás de una solicitud atascada. La cancelación devuelve el control y los resultados tardíos no reemplazan lo que ya estás revisando.
+- Se conserva el reconocimiento de documentos y tablas. Durante la recuperación rápida también se pueden reconstruir tablas simples por su alineación, con celdas editables y copia para Excel, Numbers o Sheets.
+- El editor identifica los resultados recuperados y recuerda revisarlos: la ruta rápida puede omitir caracteres aislados o no interpretar tablas complejas.
 
-## Selector y Ajustes renovados
+## Enter y Escape en el selector
 
-- Marco aqua más fino y tiradores discretos con el mismo margen cómodo de agarre.
-- Dimensiones en una cápsula y barra flotante de vidrio con OCR y Capturar completos. Ambos controles se acomodan al llegar a los bordes de pantalla.
-- La lupa se retira al terminar de seleccionar. La imagen conserva los píxeles originales, sin sombreado ni controles del selector.
-- Ajustes se organiza en **Captura, Apariencia, Atajos y App**, sin necesidad de scroll. Se distinguen la copia directa y la copia al abrir la vista previa.
+- Enter y el Enter numérico confirman el área aunque un botón de la barra tenga el foco.
+- Escape cancela la selección normal y la selección de OCR. Los atajos de confirmación y cancelación se retiran al cerrar el selector.
+- Se mantienen Ctrl+C/⌘C para copiar directamente y el inicio automático del OCR al soltar el área seleccionada.
 
-Se conservan Enter para abrir la vista previa desde el ajuste, Ctrl+C/⌘C para copiar directamente, Enter/Ctrl+C/⌘C para copiar y cerrar la vista previa y Escape para cancelar. Los campos de texto conservan sus propios atajos de edición.
+Sin nuevas dependencias ni trabajo periódico en reposo. Se conservan las preferencias, los temas, el editor y la grabación.
 
-Se mantienen claro, oscuro y alto contraste, OCR, scroll y grabación. Sin nuevas dependencias ni bucles de animación permanentes.
-
+macOS puede solicitar renovar el permiso de Grabación de pantalla después de actualizar.
 </description>
-      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.7/Captura-0.13.7.zip" length="3754117" type="application/octet-stream" sparkle:edSignature="UfTH1b4CltV97aRNaATTANPoozaV+jtZuG41fhHPMVv8panPJINYllvIOTS8pkaYTYXDkR/cjNZ/ynym0VagDw=="></enclosure>
+      <enclosure url="https://github.com/arenter1/captura-updates/releases/download/v0.13.8/Captura-0.13.8.zip" length="3767642" type="application/octet-stream" sparkle:edSignature="l1Fxk6dnHwVwReloLm7OjIfzegqIWkdQHiA46Vtykehr6L9MhScM+DP3Jteq6Nw5QfrazmOileNDING0yCyeDQ=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: J+IhNmNABnBuqPKOy4joy4i7B667PkAiGVwRM5IPBUpNsH6fh8xprGYmQs4KRT/OcZC/AMzolPZ+4HGERE1hCg==
-length: 2970
+edSignature: +Jo/ntawhwIUAM8b5Fy1kGXsKQ7++cuDT+JaGyYI6/6exeedBHGBiiykJ6PpdxfC9hLvbAc+QDiHlfdmvfYhDw==
+length: 2762
 -->
